@@ -19,10 +19,12 @@ using namespace std;
 
 // 3) 타입 변환
 
+// 4) 사칙 연산 관련
+
 int main()
 {
 	// 1) 스택 예시
-	int hp = 77777;
+	int hp = 123;
 
 	//2) 연산 우선순위 예시
 	// 짝수 여부
@@ -36,7 +38,17 @@ int main()
 	// 바구니 교체
 	short hp2 = hp; // 윗쪽 비트 데이터가 짤린 상태로 저장
 	float hp3 = hp; // 실수로 변환할 때 정밀도 차이가 있기 때문에 데이터 손실
-	unsigned int hp4 = hp;
+	unsigned int hp4 = hp; // 비트 단위로 보면 똑같은데, 분석하는 방법이 달라져가지고
+
+	// 곱셈
+	// - 오버플로우
+	// 나눗셈
+	// - 0 나누기조심
+	// - 실수 관련
+
+	int maxHp = 1000;
+
+	float ratio = hp / maxHp; // 0.123
 
 }
 

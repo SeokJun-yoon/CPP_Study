@@ -1,2 +1,2 @@
 # CPP_Study
-Studying About CPP_Study by inflearn.com
+Study contents About CPP_Study by inflearn.com

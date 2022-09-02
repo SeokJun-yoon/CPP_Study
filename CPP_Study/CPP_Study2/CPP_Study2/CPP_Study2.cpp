@@ -53,6 +53,4 @@ double attackSpeed2 = 134.4123; // 8바이트
 int main()
 {
     cout << isHighLevel << endl;
-    // 여성 갯수? 뭔 말이지?
-
 }

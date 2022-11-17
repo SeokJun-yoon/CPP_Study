@@ -140,7 +140,7 @@ int main()
 //	// 1번째줄 = 3개
 //	// 2번째줄 = 2개
 //	// i번째줄 = 4-i개
-//	for (int j = 0; j < input-i; j++)
+//	for (int j = 0; j < (input - i); j++)
 //	{
 //		cout << "*";
 //	}
